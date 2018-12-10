@@ -4,10 +4,15 @@ rancher:
     network:
         interfaces:
             eth0:
-                address: 192.168.3.20/24
-                gateway: 192.168.3.1
+                address: 192.168.88.105/24
+                gateway: 192.168.88.254
                 mtu: 1500
                 dhcp: false
 
 ssh_authorized_keys:
-    - ssh-rsa 公钥内容粘贴写在这里
+    - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCI7YATjnsl/WCb77ECGJE9RswRi1FYJpiN
+dIO4UqVoKUSD9RNMc7hj1beh3sxEjOdsliQ6dHQjGvjnW/JvKy4IYDdiC8C+M7ea
+54BfyJUHj89tTWpr8Ult2gBWpqts8GL+boh+b2+9bJUn4ZpAyLengcYHf1ZNLXZs
+xOHlw49uJb0+GDOazRZRY7CBQB+q8cmTB3cTseEa5AJpMMxP2FR55ZKisOjbncLe
+pgEWtCtWaypEUEoyyn6QoYEkixwXuSfdYR99DSbGkSpfWd9JrZhlCN1WvJE0VzOS
+btlCimsbtrG7kI3k69mER6FHBMlw10C7cOzifEZX5vkoj+bRrKir
