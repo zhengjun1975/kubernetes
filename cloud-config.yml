@@ -1,0 +1,13 @@
+#cloud-config
+
+rancher:
+    network:
+        interfaces:
+            eth0:
+                address: 192.168.3.20/24
+                gateway: 192.168.3.1
+                mtu: 1500
+                dhcp: false
+
+ssh_authorized_keys:
+    - ssh-rsa 公钥内容粘贴写在这里
