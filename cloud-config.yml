@@ -1,4 +1,4 @@
-#cloud-config
+#cloud-config Rancheros安装到本地硬盘 
 
 rancher:
     network:
