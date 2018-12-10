@@ -1,4 +1,4 @@
-#cloud-config Rancheros安装到本地硬盘 
+#cloud-config Rancheros安装到本地硬盘 /var/lib/rancher/conf/cloud-config.yml sudo ros install -c cloud-config.yml -d /dev/sda
 
 rancher:
     network:
